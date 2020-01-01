@@ -1,6 +1,6 @@
 {
-  "name": "nfc-pcsc",
-  "version": "0.7.4",
+  "name": "@ubiqsoft/nfc-pcsc",
+  "version": "0.7.5",
   "description": "Easy reading and writing NFC tags and cards",
   "keywords": [
     "arc122",
@@ -50,7 +50,7 @@
     "test": "cross-env NODE_ENV=test ava test/tests.js --verbose"
   },
   "dependencies": {
-    "@pokusew/pcsclite": "^0.5.2"
+    "@ubiqsoft/pcsclite": "^0.5.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
